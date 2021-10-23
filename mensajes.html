@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/json" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <title>USA - Grupo11 - Ciclo03</title>
+</head>
+<body>
+    <body onLoad="pintarSelect(0)"></body>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/funcionesMensajes.js"></script>
+	<h1>Formulario Mensajes - Reto04</h1>
+	<div id="resultado"></div>
+   <input type ="button" onclick="traerInformacion()" title="Consultar" value="Consultar">
+   <div>
+       
+       <input type="text" id="messageText" placeholder="messageText">
+       <select id="cat"  required>
+
+    
+   </select> 
+   </div>
+   <button onclick="guardarInformacion()">Guardar</button>
+   <button onclick="actualizarInformacion()">Actualizar</button>
+
+</body>
+</html>
